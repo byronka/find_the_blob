@@ -1,0 +1,2 @@
+ 1  HOME :BUZZ = 49200
+ 2 A$ = "?/-" +  CHR$ (92): FOR A = 1 TO 48:B =  PEEK (BUZZ): FOR C = 1 TO A: NEXT :X$ =  MID$ (A$,A -  INT (A / 4) * 4 + 1,1): VTAB 3: HTAB 9: PRINT X$X$X$: NEXT : GOTO 2

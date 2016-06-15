@@ -1,0 +1,3 @@
+ 20  HGR2 :C = 0: HCOLOR= 3: FOR A = 1 TO ((279 - 23) * 23) STEP 23:B =  INT (96 * ( COS (A))) + 96:D =  INT (96 * ( COS (A + 1))) + 96:C = C + 1
+ 30  HPLOT C,B TO C + 23,D: NEXT A
+ 40  GET B$: PRINT : RUN 
